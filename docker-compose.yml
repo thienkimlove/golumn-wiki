@@ -1,0 +1,7 @@
+web:
+  image: thienkimlove/golumn-wiki
+  restart: always
+  volumes:
+    - ./wiki:/wiki
+  environment:
+     VIRTUAL_HOST: wiki.tuelinh.vn 
